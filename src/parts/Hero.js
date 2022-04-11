@@ -1,5 +1,5 @@
 import React from "react";
-import ImageHero from "assets/images/img-hero.svg";
+import ImageComputer from "assets/images/img-computer.svg";
 
 import Button from "elements/Button";
 
@@ -16,15 +16,14 @@ export default function Hero(props) {
         <div className="row">
           <div className="col">
             <h1 className="font-weight-bold line-height-1 mt-3">
-              Satu Aplikasi Untuk <br />
-              Semua Kebutuhan
+              Aplikasi Pembelajaran <br />
+              untuk sekolah kejurusan
             </h1>
             <p
               className="mb-4 font-weight-light w-75"
               style={{ lineHeight: "170%" }}
             >
-              Meminjam modal, berbelanja dan berjualan hanya menggunakan satu
-              apliaski. Coba aplikasi SiBaik sekarang juga
+              Belajar materi-materi Kejurusan dan bisa membaca komik hanya menggunakan satu aplikasi.Coba aplikasi Aflarc sekarang juga
             </p>
 
             <Button
@@ -33,12 +32,13 @@ export default function Hero(props) {
               isPrimary
               onClick={showInformation}
             >
-              Show Information
+              Lihat Informasi
             </Button>
           </div>
           <div className="col d-none d-md-block pl-5">
             <div>
-              <img src={ImageHero} style={{ width: 500 }} alt="Img hero" />
+              <img src={ImageComputer} style={
+                { width: 550, marginTop: 0, marginRight: -50}} alt="Img Computer" />
             </div>
           </div>
         </div>

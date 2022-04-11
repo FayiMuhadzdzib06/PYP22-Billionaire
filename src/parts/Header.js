@@ -22,15 +22,15 @@ export default function Header(props) {
   return (
     <header class="spacing-sm">
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="/">
-            SiBaik
+        <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+          <a className="navbar-brand font-weight-bold" href="/" style={{fontSize: 25, fontFamily: 'Poppins'}}>
+            Aflarc
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler navbar-toggler-right"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -38,19 +38,19 @@ export default function Header(props) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ml-auto">
-              <li className={`nav-item${getNavLinkClass("/")}`}>
-                <a className="nav-link" href="/">
+            <ul className="navbar-nav ml-auto mr-3">
+              <li className={`nav-item mx-md-2${getNavLinkClass("/")}`}>
+                <a className="nav-link Active" href="/" style={{fontSize: 16, fontFamily: 'Poppins'}}>
                   Home
                 </a>
               </li>
-              <li className={`nav-item`}>
-                <a className="nav-link" onClick={showFeatured}>
+              <li className={`nav-item mx-md-2`}>
+                <a className="nav-link" onClick={showFeatured} style={{fontSize: 16, fontFamily: 'Poppins'}}>
                   Featured
                 </a>
               </li>
-              <li className={`nav-item`}>
-                <a className="nav-link" onClick={showContact}>
+              <li className={`nav-item mx-md-2`}>
+                <a className="nav-link" onClick={showContact} style={{fontSize: 16, fontFamily: 'Poppins'}}>
                   Contact
                 </a>
               </li>

@@ -11,7 +11,7 @@ export default function Featured(props) {
         <div className=" section-featured row">
           <div className="col-12 text-center">
             <h2>Fitur Unggulan</h2>
-            <p>Fitur-fitur unggulan yang ada diaplikasi SiBaik</p>
+            <p>Fitur-fitur unggulan yang ada diaplikasi Aflarc</p>
           </div>
 
           {props.data.map((item, index) => {

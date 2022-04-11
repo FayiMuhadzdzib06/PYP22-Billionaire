@@ -45,7 +45,7 @@
 @import "utilities";
 @import "print";
 .body {
-    background: #f6f8fd;
+    background: #f1f1f1;
 }
 
 header {
@@ -56,7 +56,7 @@ header {
             li.nav-item {
                 &.active {
                     a.nav-link {
-                        color: #3252df;
+                        color: #9F06FF;
                         font-weight: bold;
                         font-family: "Poppins", sans-serif;
                     }
@@ -79,7 +79,6 @@ header {
         }
     }
 }
-
 .hero {
     h1 {
         font-size: 42px;

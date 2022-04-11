@@ -12,9 +12,9 @@ export default function Information(props) {
           <div className="col-12 text-center">
             <h2>
               Kenapa harus menggunakan aplikasi{" "}
-              <span style={{ color: "#1757ed" }}>SiBaik ?</span>
+              <span style={{ color: "#9F06FF" }}>Aflarc ?</span>
             </h2>
-            <p>Beberapa keunggulan yang ditawarkan oleh aplikasi SiBaik</p>
+            <p>Beberapa keunggulan yang ditawarkan oleh aplikasi Aflarc</p>
           </div>
 
           {props.data.map((item, index) => {

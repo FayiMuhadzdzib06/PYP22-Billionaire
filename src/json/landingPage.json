@@ -1,48 +1,48 @@
 {
     "information": [{
             "_id": "1",
-            "imageUrl": "/images/ic_app.png",
-            "title": "Paket Lengkap",
-            "desc": "Pinjam modal, berjualan dan berbelanja dalam satu aplikasi"
+            "imageUrl": "/images/ic_comic.png",
+            "title": "Menerbitkan komik",
+            "desc": "Costumer dapat menerbitkan komik mereka didalam website"
         },
         {
             "_id": "2",
-            "imageUrl": "/images/ic_system.png",
-            "title": "Metode Syariah",
-            "desc": "Sistem peminjaman modal kami menggunakan metode Modal Ventura"
+            "imageUrl": "/images/ic_event.png",
+            "title": "Event",
+            "desc": "menyediakan event mingguan untuk mendapatkan point"
         },
         {
             "_id": "3",
             "imageUrl": "/images/ic_poin.png",
             "title": "Tukar Poin",
-            "desc": "Poin yang ada bisa ditukar dengan produk yang ada di aplikasi SiBaik"
+            "desc": "poin yang didapatkan dari kuis bisa ditukar untuk mengakses komik"
         }
     ],
 
     "featured": [{
             "_id": "1",
-            "name": "Pinjaman Modal",
-            "imageUrl": "/images/ic_peminjaman.png"
+            "name": "Membaca Comic",
+            "imageUrl": "/images/ic_comic.png"
         },
         {
             "_id": "2",
-            "name": "Belanja Online",
-            "imageUrl": "/images/ic_belanja.png"
+            "name": "Mengerjakan Quiz",
+            "imageUrl": "/images/ic_quiz.png"
         },
         {
             "_id": "3",
             "name": "Artikel Edukasi",
-            "imageUrl": "/images/ic_article.png"
+            "imageUrl": "/images/ic_artikel.png"
         },
         {
             "_id": "4",
-            "name": "Token dan Pulsa",
-            "imageUrl": "/images/ic_tokenpulsa.png"
+            "name": "Costumer Login",
+            "imageUrl": "/images/ic_costumer.png"
         },
         {
             "_id": "5",
-            "name": "Pencatatan Keuangan",
-            "imageUrl": "/images/ic_finance.png"
+            "name": "Top up",
+            "imageUrl": "/images/ic_topup.png"
         },
         {
             "_id": "6",
@@ -53,7 +53,7 @@
 
     "team": [{
             "_id": "1",
-            "name": "Rendi Fadilah",
+            "name": "Fayi Muhadzdzib",
             "roles": "Hacker",
             "imageUrl": "Images 1",
             "github": "Github 1",
@@ -61,7 +61,7 @@
         },
         {
             "_id": "2",
-            "name": "Vicky Kustaman",
+            "name": "Putra Hayfan",
             "roles": "Hipster",
             "imageUrl": "Images 2",
             "github": "Github 2",
@@ -69,7 +69,7 @@
         },
         {
             "_id": "3",
-            "name": "Muhammad Taufan",
+            "name": "Dealova Maharani",
             "roles": "Hustler",
             "imageUrl": "Images 3",
             "github": "Github 3",
