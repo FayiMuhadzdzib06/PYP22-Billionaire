@@ -1,4 +1,4 @@
-# Nama Tim Gen - Z Ackerman - SMK Jakarta Pusat 1
+# Nama Tim Billionaire - SMK Jakarta Pusat 1
 
 # Getting Started with Create React App
 
